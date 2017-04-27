@@ -3,7 +3,7 @@
 //Add Menu Item
 add_action('admin_menu', 'wp_creditcard_validation_setup_menu');
 function wp_creditcard_validation_setup_menu(){
-        add_menu_page( 'Validación de Tarjeta', 'Validación de Tarjeta', 'manage_options', 'wp-credicard-validation', 'wp_creditcard_validation',  plugin_dir_url( __FILE__ ) .'../includes/assets/images/icons.png' , 21);
+        add_menu_page( 'WP Card Validator', 'WP Card Validator', 'manage_options', 'wp-credicard-validation', 'wp_creditcard_validation',  plugin_dir_url( __FILE__ ) .'../includes/assets/images/icons.png' , 21);
 }
 //Validate Card Function
 function wp_creditcard_validation(){
